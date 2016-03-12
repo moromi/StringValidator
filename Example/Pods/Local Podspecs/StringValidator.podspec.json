@@ -1,0 +1,21 @@
+{
+  "name": "StringValidator",
+  "version": "0.1.0",
+  "summary": "String validator",
+  "homepage": "https://github.com/taka0125/StringValidator",
+  "license": "MIT",
+  "authors": {
+    "Takahiro Ooishi": "taka0125@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/taka0125/StringValidator.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "pod_target_xcconfig": {
+    "SWIFT_VERSION": "3.0"
+  },
+  "source_files": "Sources/**/*.swift"
+}

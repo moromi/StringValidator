@@ -1,0 +1,13 @@
+platform :ios, '8.0'
+
+target 'StringValidatorExample' do
+  use_frameworks!
+
+  pod 'StringValidator', path: '../'
+end
+
+target 'StringValidatorTests' do
+  use_frameworks!
+
+  pod 'StringValidator', path: '../'
+end
