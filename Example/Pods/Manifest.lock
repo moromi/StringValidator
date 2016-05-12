@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  StringValidator: 4eff9d98a8d7e7a69368649b62c47ad39507f130
+  StringValidator: 58c4f8579d571e28f9d8ac2aa38fead22b839fe7
 
 PODFILE CHECKSUM: 1cbdfcbc2a39c358d2d0de3c9e85d0d119dd0f3e
 

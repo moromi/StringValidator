@@ -13,6 +13,9 @@
 		F8905CFF1DF2705E00852D08 /* ComposedLengthValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8905CFE1DF2705E00852D08 /* ComposedLengthValidatorTests.swift */; };
 		F8905D031DF2724200852D08 /* MultipleValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8905D021DF2724200852D08 /* MultipleValidatorTests.swift */; };
 		F8905D051DF272AC00852D08 /* FormatValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8905D041DF272AC00852D08 /* FormatValidatorTests.swift */; };
+		F8B1C9311DF557C200B6A9A0 /* InclusionValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B1C9301DF557C200B6A9A0 /* InclusionValidatorTests.swift */; };
+		F8B1C9331DF5586200B6A9A0 /* ExclusionValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B1C9321DF5586200B6A9A0 /* ExclusionValidatorTests.swift */; };
+		F8B1C9351DF5592700B6A9A0 /* PresenceValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B1C9341DF5592700B6A9A0 /* PresenceValidatorTests.swift */; };
 		F8F6C34E1DEEBB5100E11174 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F6C34D1DEEBB5100E11174 /* AppDelegate.swift */; };
 		F8F6C3501DEEBB5100E11174 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F6C34F1DEEBB5100E11174 /* ViewController.swift */; };
 		F8F6C3531DEEBB5100E11174 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8F6C3511DEEBB5100E11174 /* Main.storyboard */; };
@@ -43,6 +46,9 @@
 		F8905CFE1DF2705E00852D08 /* ComposedLengthValidatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposedLengthValidatorTests.swift; sourceTree = "<group>"; };
 		F8905D021DF2724200852D08 /* MultipleValidatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleValidatorTests.swift; sourceTree = "<group>"; };
 		F8905D041DF272AC00852D08 /* FormatValidatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormatValidatorTests.swift; sourceTree = "<group>"; };
+		F8B1C9301DF557C200B6A9A0 /* InclusionValidatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InclusionValidatorTests.swift; sourceTree = "<group>"; };
+		F8B1C9321DF5586200B6A9A0 /* ExclusionValidatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExclusionValidatorTests.swift; sourceTree = "<group>"; };
+		F8B1C9341DF5592700B6A9A0 /* PresenceValidatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresenceValidatorTests.swift; sourceTree = "<group>"; };
 		F8F6C34A1DEEBB5100E11174 /* StringValidatorExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StringValidatorExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8F6C34D1DEEBB5100E11174 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8F6C34F1DEEBB5100E11174 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +105,9 @@
 				F8905CFE1DF2705E00852D08 /* ComposedLengthValidatorTests.swift */,
 				F8905D041DF272AC00852D08 /* FormatValidatorTests.swift */,
 				F8905D021DF2724200852D08 /* MultipleValidatorTests.swift */,
+				F8B1C9301DF557C200B6A9A0 /* InclusionValidatorTests.swift */,
+				F8B1C9321DF5586200B6A9A0 /* ExclusionValidatorTests.swift */,
+				F8B1C9341DF5592700B6A9A0 /* PresenceValidatorTests.swift */,
 				F8905CF41DF26CD600852D08 /* Info.plist */,
 			);
 			path = StringValidatorTests;
@@ -341,9 +350,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8905D031DF2724200852D08 /* MultipleValidatorTests.swift in Sources */,
+				F8B1C9331DF5586200B6A9A0 /* ExclusionValidatorTests.swift in Sources */,
+				F8B1C9311DF557C200B6A9A0 /* InclusionValidatorTests.swift in Sources */,
 				F8905CFF1DF2705E00852D08 /* ComposedLengthValidatorTests.swift in Sources */,
 				F8905CFB1DF26D0700852D08 /* LengthValidatorTests.swift in Sources */,
 				F8905D051DF272AC00852D08 /* FormatValidatorTests.swift in Sources */,
+				F8B1C9351DF5592700B6A9A0 /* PresenceValidatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
