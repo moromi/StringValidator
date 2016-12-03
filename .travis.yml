@@ -7,13 +7,12 @@ cache:
 before_install:
   - gem install bundler
 install:
-  - brew update && (brew upgrade xctool || true) && xctool --version
   - bundle install -j4 --path=vendor/bundle --binstubs=vendor/bin
   - cd Example && bundle exec pod install
-xcode_workspace:  Example/StringValidatorExample.xcworkspace
-xcode_scheme: StringValidatorExample
-xcode_sdk: iphonesimulator
+script:
+  - cd Example && bundle exec rake test:iphonesimulator:$TEST_IOS_VERSION
 env:
-  - XCODE_SDK=iphonesimulator8.4
-  - XCODE_SDK=iphonesimulator9.3
-  - XCODE_SDK=iphonesimulator10.1
+  matrix:
+    - TEST_IOS_VERSION=ios10
+    - TEST_IOS_VERSION=ios8
+    - TEST_IOS_VERSION=ios9

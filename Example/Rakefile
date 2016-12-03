@@ -1,0 +1,19 @@
+require 'xcjobs'
+
+DESTINATIONS = {
+  ios10: "platform=iOS Simulator,name=iPhone 6,OS=10.1",
+  ios9: "platform=iOS Simulator,name=iPhone 6,OS=9.3",
+  ios8: "platform=iOS Simulator,name=iPhone 6,OS=8.4",
+}
+
+namespace :test do
+  DESTINATIONS.each do |os, destination|
+    XCJobs::Test.new("iphonesimulator:#{os.to_s}") do |t|
+      t.workspace = 'StringValidatorExample.xcworkspace'
+      t.scheme = 'StringValidatorExample'
+      t.add_destination destination
+      t.build_dir = 'build'
+      t.formatter = 'bundle exec xcpretty -c'
+    end
+  end
+end
