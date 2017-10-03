@@ -556,6 +556,38 @@
 			};
 			name = Debug;
 		};
+		1B27FF217F1FAD41F659C7BEC5A218EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 008839E2A1BFFE2705BBA92CFCC7594C /* StringValidator.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/StringValidator/StringValidator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/StringValidator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/StringValidator/StringValidator.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = StringValidator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -596,38 +628,6 @@
 			};
 			name = Release;
 		};
-		667DD840EA0B6523C96B7FE8E60B7525 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 008839E2A1BFFE2705BBA92CFCC7594C /* StringValidator.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/StringValidator/StringValidator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/StringValidator/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/StringValidator/StringValidator.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = StringValidator;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		70054A6CB48BEF919D1D140FE95F67BE /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B8A3DB5CE03FE20FB83C16A4A25BAE18 /* Pods-StringValidatorTests.release.xcconfig */;
@@ -663,7 +663,7 @@
 			};
 			name = Release;
 		};
-		D6B34620141234D8E6450E5D9A30FDFF /* Debug */ = {
+		B163D0CE12667E5B0293CFE1DF139A73 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 008839E2A1BFFE2705BBA92CFCC7594C /* StringValidator.xcconfig */;
 			buildSettings = {
@@ -689,7 +689,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -729,8 +729,8 @@
 		3A6685B51BFA2C03432A54E1ECC0505B /* Build configuration list for PBXNativeTarget "StringValidator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D6B34620141234D8E6450E5D9A30FDFF /* Debug */,
-				667DD840EA0B6523C96B7FE8E60B7525 /* Release */,
+				B163D0CE12667E5B0293CFE1DF139A73 /* Debug */,
+				1B27FF217F1FAD41F659C7BEC5A218EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
