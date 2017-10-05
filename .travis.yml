@@ -1,6 +1,6 @@
 language: objective-c
-osx_image: xcode8.1
-cache: 
+osx_image: xcode9.1
+cache:
   directories:
     - vendor/bundle
     - Pods
@@ -13,6 +13,7 @@ script:
   - cd Example && bundle exec rake test:iphonesimulator:$TEST_IOS_VERSION && cd -
 env:
   matrix:
+    - TEST_IOS_VERSION=ios11
     - TEST_IOS_VERSION=ios10
-    - TEST_IOS_VERSION=ios8
     - TEST_IOS_VERSION=ios9
+    - TEST_IOS_VERSION=ios8
