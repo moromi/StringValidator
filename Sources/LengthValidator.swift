@@ -23,7 +23,7 @@ public struct LengthValidator: Validator {
   
   public func validate(_ string: String?) -> Bool {
     if allowNil && string == nil { return true }
-    guard let string = string else { return false }
+    guard var string = string else { return false }
     if allowBlank && string.isEmpty { return true }
     if ignoreWhitespaces {
       string = string.trimmingCharacters(in: .whitespaces)
