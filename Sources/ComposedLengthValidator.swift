@@ -31,7 +31,7 @@ public struct ComposedLengthValidator: Validator {
 fileprivate extension String {
   var composedCount: Int {
     var count = 0
-    enumerateSubstrings(in: startIndex..<endIndex, options: .byComposedCharacterSequences, { _ in count += 1})
+    enumerateSubstrings(in: startIndex..<endIndex, options: .byComposedCharacterSequences, { _,_,_,_  in count += 1})
     return count
   }
 }

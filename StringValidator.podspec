@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "StringValidator"
-  s.version = "0.2.0"
+  s.version = "0.3.0"
   s.summary = "String validator"
   s.homepage = "https://github.com/moromi/StringValidator"
   s.license = "MIT"
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = "8.0"
 
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3.0' }
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
 
   s.source_files = "Sources/**/*.swift"
 end
