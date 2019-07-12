@@ -108,3 +108,5 @@ fastlane/test_output
 
 .bundle
 vendor
+*.xcworkspace
+Example/Pods

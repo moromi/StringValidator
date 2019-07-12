@@ -29,6 +29,6 @@ public struct LengthValidator: Validator {
       string = string.trimmingCharacters(in: .whitespaces)
     }
     
-    return range.contains(string.characters.count)
+    return range.contains(string.count)
   }
 }
