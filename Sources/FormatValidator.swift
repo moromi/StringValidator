@@ -20,6 +20,6 @@ public struct FormatValidator: Validator {
   public func validate(_ string: String?) -> Bool {
     guard let string = string else { return false }
     
-    return regexp.numberOfMatches(in: string, options: [], range: NSRange(location: 0, length: string.characters.count)) > 0
+    return regexp.numberOfMatches(in: string, options: [], range: NSRange(location: 0, length: string.count)) > 0
   }
 }

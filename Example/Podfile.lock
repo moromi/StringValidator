@@ -1,5 +1,5 @@
 PODS:
-  - StringValidator (0.2.0)
+  - StringValidator (0.5.0)
 
 DEPENDENCIES:
   - StringValidator (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  StringValidator: 0f5996922b5a319e99021370c656ae2896fa1192
+  StringValidator: 10f86d39619318e0dd6ae4214cd4958957c0ddf3
 
 PODFILE CHECKSUM: 1cbdfcbc2a39c358d2d0de3c9e85d0d119dd0f3e
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.7.0
